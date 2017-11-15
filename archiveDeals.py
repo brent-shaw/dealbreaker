@@ -5,6 +5,8 @@ from bs4 import BeautifulSoup, SoupStrainer
 import pickle
 import datetime
 
+#Note: This now requires the PhantomJS driver
+
 deals = []
 
 def getHTML(url, title):
